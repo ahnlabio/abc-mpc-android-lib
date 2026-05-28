@@ -1,0 +1,134 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.ahnlab",
+    "module": "abcmpc",
+    "version": "0.1.19",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "abcmpc-0.1.19.aar",
+          "url": "abcmpc-0.1.19.aar",
+          "size": 20237512,
+          "sha512": "c9df6382d0b0603b357a3bf7249fce56d270da62dd8e13653f8e96d01f814cda3b2200473d0817ad5187a83b1de71f6f18ea451d3194fd8beaa3e9b4f19b088b",
+          "sha256": "2139b046188fd9afad3003a7e2f191c4162ffff6764a2bf549e181386849783a",
+          "sha1": "cbdebcdbf0fb8994cdb155500745201e06c35b4d",
+          "md5": "9e4e11642e8c0276a9671c4c6c17fff5"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "abcmpc-0.1.19.aar",
+          "url": "abcmpc-0.1.19.aar",
+          "size": 20237512,
+          "sha512": "c9df6382d0b0603b357a3bf7249fce56d270da62dd8e13653f8e96d01f814cda3b2200473d0817ad5187a83b1de71f6f18ea451d3194fd8beaa3e9b4f19b088b",
+          "sha256": "2139b046188fd9afad3003a7e2f191c4162ffff6764a2bf549e181386849783a",
+          "sha1": "cbdebcdbf0fb8994cdb155500745201e06c35b4d",
+          "md5": "9e4e11642e8c0276a9671c4c6c17fff5"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "abcmpc-0.1.19-sources.jar",
+          "url": "abcmpc-0.1.19-sources.jar",
+          "size": 6403,
+          "sha512": "ddab8f8b3d21b4d9e6e2128917cab644f12c2201f1669b2d8c471c00b3177e64d6fe33cfa94325f1d22faa47e116ed76d1180a205a4f13464012b74f714392de",
+          "sha256": "60ff5f50a9d258189dd23d4bf5567c43688fea213dc17893cfff353bbe6cadd6",
+          "sha1": "218d0bb89dd134cd2deeb631958696d7539d805c",
+          "md5": "2b575c06e38e16f6a7ac6eb1af9af1e1"
+        }
+      ]
+    }
+  ]
+}
